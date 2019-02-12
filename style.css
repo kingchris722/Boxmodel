@@ -1,0 +1,53 @@
+p{
+    font-size:20px;
+}
+div{
+    background-color:dimgray;
+     color: lightcoral;
+    display:inline-block;
+}
+
+#nopadding{
+    padding:0;
+}
+#padding{
+    padding: 50px;
+}
+
+#toppadding{
+    padding-top: 50px;
+}
+
+#bottompadding{
+    padding-bottom: 50px;
+}
+
+#leftpadding{
+    padding-left: 50px;
+}
+
+#rightpadding{
+    padding-right:50px;
+}
+
+/*order is always  Top RIGHT BOTTOM LEFT*/
+
+#mixedpadding{
+    padding: 10px 40px 100px 20px;
+}
+
+#DottedBorder{
+    border: 3px wavy navy;
+}
+
+#dashedboder{
+    border: 2px dashed red;
+}
+
+#solidborder{
+    border: 4px solid yellow;
+}
+
+#doubleborder{
+    border: 3px double green;
+}
