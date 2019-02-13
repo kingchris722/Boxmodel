@@ -7,47 +7,86 @@ div{
     display:inline-block;
 }
 
-#nopadding{
+#noPadding{
     padding:0;
 }
 #padding{
     padding: 50px;
 }
 
-#toppadding{
+#topPadding{
     padding-top: 50px;
 }
 
-#bottompadding{
+#bottomPadding{
     padding-bottom: 50px;
 }
 
-#leftpadding{
+#leftPadding{
     padding-left: 50px;
 }
 
-#rightpadding{
+#rightPadding{
     padding-right:50px;
 }
 
 /*order is always  Top RIGHT BOTTOM LEFT*/
 
-#mixedpadding{
+#mixedPadding{
     padding: 10px 40px 100px 20px;
 }
 
-#DottedBorder{
+#dottedBorder{
     border: 3px wavy navy;
 }
 
-#dashedboder{
+#dashedBorder{
     border: 2px dashed red;
 }
 
-#solidborder{
+#solidBorder{
     border: 4px solid yellow;
 }
 
-#doubleborder{
+#doubleBorder{
     border: 3px double green;
+}
+
+#groveBorder{
+    border: 4px groove orange;
+
+}
+
+#ridgeBorder{
+    border: 5px ridge purple;
+}
+
+#insetBorder{
+    border: 10px inset gray;
+
+}
+
+#outsetBorder{
+    border: 10px outset gray;
+}
+
+#mixedBorder{
+    border-color: chartreuse;
+    border-style: dotted outset inset ridge;
+    border-width: 20px;
+}
+
+.row1{
+    width: 33%;
+    border: 2px solid black;
+}
+
+.row2{
+    width: 30%;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+#spacer{
+    height: 300px;
 }
