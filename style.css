@@ -96,4 +96,19 @@ div{
     width:25%;
     margin: auto;
     margin-top: 25px;
+    margin-bottom: 50px;
 }
+
+
+#perLeftMargin{
+    height: 200px;
+    width: 25%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#perRightmargin{
+    height: 200px;
+    width:35%;
+}
+
